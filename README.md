@@ -1,11 +1,13 @@
 GPIBUSB Adapter PCB
 ===================
 
-This repository contains the KiCAD PCB project files for the GPIBUSB Adapter project.
+This repository is a clone of www.github.com/Galvant/gpibusb-pcb . It utilizes an STM32 microcontroller instead of a PIC and adds ESD protection circuitry.
 
-The associated firmware project can be found on GitHub at www.github.com/Galvant/gpibusb-firmware
+> This repository contains the KiCAD PCB project files for the GPIBUSB Adapter project.
 
-Pre-assembled boards can be found at www.galvant.ca
+> The associated firmware project can be found on GitHub at www.github.com/Galvant/gpibusb-firmware
+
+> Pre-assembled boards can be found at www.galvant.ca
 
 About
 -----
@@ -43,12 +45,12 @@ Bootloader: https://www.github.com/Galvant/gpibusb-bootloader
 Firmware Compatibility
 ----------------------
 
-Here hardware revisions (left) are listed with their compatible software versions (right). The hardware
+>Here hardware revisions (left) are listed with their compatible software versions (right). The hardware
 revision is marked on the silkscreen on the adapter PCB.
 
-revB/rev2: v1 - v3
+>revB/rev2: v1 - v3
 
-rev3 family (ie 3.1, 3.2): v4
+>rev3 family (ie 3.1, 3.2): v4
 
 License
 -------
